@@ -1,6 +1,14 @@
+# === Core Project Ignores (match Archive) ===
 node_modules
 .next
 dist
 build
 coverage
 .env
+
+# === Communications Project .gitignore ===
+# (keep your existing extended ignores below)
+.DS_Store
+Thumbs.db
+Desktop.ini
+...
