@@ -1,0 +1,169 @@
+{
+  "cryo": {
+    "feedback": {
+      "error": "Algo salió mal",
+      "success": "¡Orden enviada!"
+    }
+  },
+  "dashboard": {
+    "header": {
+      "submissionIntake": "Formulario de admisión del agente"
+    },
+    "title": {
+      "agent": "Panel del Agente",
+      "field": "Panel del Representante de Campo",
+      "ops": "Panel de Operaciones"
+    },
+    "welcome": {
+      "agent": "Administra envíos, pedidos e informes.",
+      "field": "Accede a tus rutas de entrega, actualiza estados de paquetes y comunícate con despacho.",
+      "ops": "Aquí van los datos operativos y métricas."
+    }
+  },
+  "header": {
+    "lang": {
+      "label": "Idioma"
+    },
+    "logout": "Cerrar sesión",
+    "role": {
+      "agent": "Portal del Agente",
+      "field": "Portal del Campo",
+      "unknown": "Portal del Usuario"
+    }
+  },
+  "intake": {
+    "actions": {
+      "submitOrder": "Enviar Orden",
+      "submitViaApi": "Enviar vía API"
+    },
+    "carrierOptions": {
+      "DHL": "DHL",
+      "FedEx": "FedEx",
+      "Maersk": "Maersk",
+      "UPS": "UPS"
+    },
+    "errors": {
+      "contractHashInvalid": "El hash del contrato debe ser una cadena hexadecimal válida de 64 caracteres.",
+      "destinationRequired": "El destino es obligatorio.",
+      "insuranceMissing": "Por favor confirma si deseas incluir seguro.",
+      "originRequired": "El origen es obligatorio.",
+      "rawManifestMissing": "Se requiere el manifiesto.",
+      "weightInvalid": "El peso debe ser un número positivo."
+    },
+    "field": {
+      "destinationHub": "Centro de Destino",
+      "packageContents": "Contenido del Paquete",
+      "rawManifest": "Pegar Manifiesto Crudo",
+      "shipmentId": "ID de Envío"
+    },
+    "helper": {
+      "destination": "Introduce la ubicación de destino.",
+      "insurance": "Marca esta casilla si deseas incluir seguro.",
+      "origin": "Introduce el lugar de origen del envío.",
+      "weight": "Especifica el peso del paquete en kilogramos o libras."
+    },
+    "label": {
+      "arrival": "Llegada Estimada",
+      "arrivalLocation": "Ubicación de Llegada",
+      "carrier": "Transportista",
+      "contractHash": "Hash del Contrato",
+      "contents": "Contenido",
+      "customsStatus": "Estado de Aduana",
+      "departure": "Hora de Salida",
+      "departureLocation": "Ubicación de Salida",
+      "destination": "Destino",
+      "destinationAirport": "Aeropuerto de Destino",
+      "destinationHub": "Centro de Destino",
+      "destinationPort": "Puerto de Destino",
+      "destinationPostal": "Código Postal de Destino",
+      "dropoffLocation": "Lugar de Entrega",
+      "fragility": "Nivel de Fragilidad",
+      "insurance": "Incluir Seguro",
+      "origin": "Origen",
+      "originAirport": "Aeropuerto de Origen",
+      "originPort": "Puerto de Origen",
+      "originPostal": "Código Postal de Origen",
+      "packageContents": "Contenido del Paquete",
+      "pickupLocation": "Lugar de Recogida",
+      "priority": "Nivel de Prioridad",
+      "rawManifest": "Manifiesto Crudo",
+      "receiver": "Receptor",
+      "sender": "Remitente",
+      "shipmentId": "ID de Envío",
+      "statusDelivery": "Estado de Entrega",
+      "statusDispatch": "Estado de Despacho",
+      "statusTransit": "Estado de Tránsito",
+      "transportMode": "Modo de Transporte",
+      "weight": "Peso"
+    },
+    "opsPanel": {
+      "futureField": "Futuro Sabor Delicioso del Panel de Operaciones",
+      "title": "Entrada de Métricas Operativas"
+    },
+    "panel": {
+      "title": "Ingreso Manual"
+    },
+    "placeholder": {
+      "apiPayload": "Pega tu carga útil de API aquí",
+      "arrival": "Introduce la hora de llegada",
+      "arrivalLocation": "Introduce la ubicación de llegada",
+      "carrier": "Selecciona un transportista",
+      "contents": "Describe el contenido del envío",
+      "contractHash": "Introduce el hash del contrato",
+      "customsStatus": "Estado de Aduana",
+      "departure": "Introduce la hora de salida",
+      "departureLocation": "Introduce la ubicación de salida",
+      "destination": "Introduce la ubicación de destino",
+      "destinationPostal": "Introduce el código postal de destino",
+      "fragility": "¿Qué tan frágil es el paquete?",
+      "insurance": "¿Deseas incluir seguro?",
+      "origin": "Introduce la ubicación de origen",
+      "originPostal": "Introduce el código postal de origen",
+      "priority": "Selecciona el nivel de prioridad",
+      "rawManifest": "Pega tu manifiesto JSON, CSV o texto sin formato aquí",
+      "receiver": "Introduce el nombre del receptor",
+      "sender": "Introduce el nombre del remitente",
+      "shipmentId": "Introduce el ID de envío",
+      "statusDelivery": "Introduce el estado de entrega",
+      "statusDispatch": "Introduce el estado de despacho",
+      "statusTransit": "Introduce el estado de tránsito",
+      "transportMode": "Selecciona el modo de transporte",
+      "weight": "Ej.: 250 kg o 600 lb"
+    },
+    "region": {
+      "APAC": "Asia-Pacífico",
+      "EU": "Europa",
+      "NA": "Norteamérica"
+    },
+    "response": {
+      "carrier": "Transportista",
+      "error": "Error"
+    },
+    "section": {
+      "contractTracking": "Contrato y Seguimiento",
+      "customsDetails": "Despacho Aduanero",
+      "deliveryDetails": "Detalles de Entrega",
+      "manifestPaste": "Pegar Manifiesto",
+      "senderDetails": "Detalles del Remitente",
+      "shippingDetails": "Detalles del Envío",
+      "transitDetails": "Configuración de Tránsito",
+      "APIInputDetails": "Pegado de manifiesto / Entrada de API"
+    },
+    "transportOptions": {
+      "air": "Aéreo",
+      "cargo": "Carga",
+      "courier": "Mensajería",
+      "truck": "Camión"
+    }
+  },
+  "login": {
+    "button": "Iniciar sesión como",
+    "instructions": "Selecciona tu rol para comenzar:",
+    "title": "Inicio de sesión en SafeShipping"
+  },
+  "roles": {
+    "agent": "Agente",
+    "field": "Representante de Campo",
+    "ops": "Operaciones"
+  }
+}

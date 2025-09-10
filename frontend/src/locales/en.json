@@ -1,0 +1,169 @@
+{
+  "cryo": {
+    "feedback": {
+      "error": "Something went wrong",
+      "success": "Order submitted!"
+    }
+  },
+  "dashboard": {
+    "header": {
+      "submissionIntake": "Agent Submission Intake"
+    },
+    "title": {
+      "agent": "Agent Dashboard",
+      "field": "Field Rep Dashboard",
+      "ops": "Operations Dashboard"
+    },
+    "welcome": {
+      "agent": "Manage shipments, orders, and reports.",
+      "field": "Access your delivery routes, update package statuses, and check in with dispatch.",
+      "ops": "Operational insights and metrics go here."
+    }
+  },
+  "header": {
+    "lang": {
+      "label": "Language"
+    },
+    "logout": "Logout",
+    "role": {
+      "agent": "Agent Portal",
+      "field": "Field Portal",
+      "unknown": "User Portal"
+    }
+  },
+  "intake": {
+    "actions": {
+      "submitOrder": "Submit Order",
+      "submitViaApi": "Submit via API"
+    },
+    "carrierOptions": {
+      "DHL": "DHL",
+      "FedEx": "FedEx",
+      "Maersk": "Maersk",
+      "UPS": "UPS"
+    },
+    "errors": {
+      "contractHashInvalid": "Contract hash must be a valid 64-character hex string.",
+      "destinationRequired": "Destination is required.",
+      "insuranceMissing": "Please confirm insurance selection.",
+      "originRequired": "Origin is required.",
+      "rawManifestMissing": "Manifest data is required.",
+      "weightInvalid": "Weight must be a positive number."
+    },
+    "field": {
+      "destinationHub": "Destination Hub",
+      "packageContents": "Package Contents",
+      "rawManifest": "Paste Raw Manifest",
+      "shipmentId": "Shipment ID"
+    },
+    "helper": {
+      "destination": "Enter the destination location for delivery.",
+      "insurance": "Check this box if you want to include insurance.",
+      "origin": "Enter the location where the shipment begins.",
+      "weight": "Specify package weight in kilograms or pounds."
+    },
+    "label": {
+      "arrival": "Estimated Arrival",
+      "arrivalLocation": "Arrival Location",
+      "carrier": "Carrier",
+      "contractHash": "Contract Hash",
+      "contents": "Contents",
+      "customsStatus": "Customs Status",
+      "departure": "Departure Time",
+      "departureLocation": "Departure Location",
+      "destination": "Destination",
+      "destinationAirport": "Destination Airport",
+      "destinationHub": "Destination Hub",
+      "destinationPort": "Destination Port",
+      "destinationPostal": "Destination Postal Code",
+      "dropoffLocation": "Dropoff Location",
+      "fragility": "Fragility Level",
+      "insurance": "Include Insurance",
+      "origin": "Origin",
+      "originAirport": "Origin Airport",
+      "originPort": "Origin Port",
+      "originPostal": "Origin Postal Code",
+      "packageContents": "Package Contents",
+      "pickupLocation": "Pickup Location",
+      "priority": "Priority Level",
+      "rawManifest": "Raw Manifest",
+      "receiver": "Receiver",
+      "sender": "Sender",
+      "shipmentId": "Shipment ID",
+      "statusDispatch": "Dispatch Status",
+      "statusTransit": "Transit Status",
+      "statusDelivery": "Delivery Status",
+      "transportMode": "Transport Mode",
+      "weight": "Weight"
+    },
+    "opsPanel": {
+      "futureField": "Future Ops Dashboard Deliciousness",
+      "title": "Operational Metrics Input"
+    },
+    "panel": {
+      "title": "Manual Intake"
+    },
+    "placeholder": {
+      "apiPayload": "Paste your API payload here",
+      "arrival": "Enter arrival time",
+      "arrivalLocation": "Enter arrival location",
+      "carrier": "Select a carrier",
+      "contents": "Describe shipment contents",
+      "contractHash": "Enter contract hash",
+      "customsStatus": "Customs Status",
+      "departure": "Enter departure time",
+      "departureLocation": "Enter departure location",
+      "destination": "Enter destination location",
+      "destinationPostal": "Enter the destination postal code",
+      "fragility": "How fragile is the package?",
+      "insurance": "Include insurance details",
+      "origin": "Enter origin location",
+      "originPostal": "Enter the origin postal code",
+      "priority": "Set priority level",
+      "rawManifest": "Paste your JSON, CSV, or plaintext manifest here",
+      "receiver": "Enter receiver name",
+      "sender": "Enter sender name",
+      "shipmentId": "Enter shipment ID",
+      "statusDispatch": "Enter dispatch status",
+      "statusTransit": "Enter transit status",
+      "statusDelivery": "Enter delivery status",
+      "transportMode": "Choose transport mode",
+      "weight": "Enter the total weight (e.g. 250 kg or 600 lbs)"
+    },
+    "region": {
+      "APAC": "Asia Pacific",
+      "EU": "Europe",
+      "NA": "North America"
+    },
+    "response": {
+      "carrier": "Carrier",
+      "error": "Error"
+    },
+    "section": {
+      "contractTracking": "Contract & Tracking",
+      "customsDetails": "Customs Clearance",
+      "deliveryDetails": "Delivery Completion",
+      "manifestPaste": "Manifest Paste",
+      "senderDetails": "Sender & Dispatch Details",
+      "shippingDetails": "Shipping Details",
+      "transitDetails": "Transit Setup",
+      "APIInputDetails": "Manifest Paste / API Input"
+    },
+    "transportOptions": {
+      "air": "Air",
+      "cargo": "Cargo",
+      "courier": "Courier",
+      "truck": "Truck"
+    }
+  },
+  "login": {
+    "button": "Login as",
+    "instructions": "Please select your role to begin:",
+    "title": "SafeShipping Login"
+  },
+  "roles": {
+    "agent": "Agent",
+    "field": "Field Rep",
+    "ops": "Operations"
+  }
+}

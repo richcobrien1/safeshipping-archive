@@ -1,0 +1,35 @@
+# //docker/build/docker-compose.yml
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: docker/api/Dockerfile.prod
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+      - IS_LOCAL=false
+    ports:
+      - "5000:5000"
+    restart: always
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend/Dockerfile.prod
+    environment:
+      - NODE_ENV=production
+      - IS_LOCAL=false
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: always
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

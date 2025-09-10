@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: safeshipping-backend-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: safeshipping-backend
+  template:
+    metadata:
+      labels:
+        app: safeshipping-backend
+    spec:
+      containers:
+      - name: safeshipping-backend
+        image: safeshipping-backend:latest
+        ports:
+        - containerPort: 5000

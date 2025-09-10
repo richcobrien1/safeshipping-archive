@@ -1,0 +1,13 @@
+# Force LF for all text files
+* text=auto eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# Docker & K8s configs
+*.yml text eol=lf
+*.yaml text eol=lf
+Dockerfile text eol=lf
+
+# Markdown & docs
+*.md text eol=lf

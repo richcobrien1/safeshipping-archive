@@ -1,0 +1,169 @@
+{
+  "cryo": {
+    "feedback": {
+      "error": "エラーが発生しました",
+      "success": "注文が送信されました！"
+    }
+  },
+  "dashboard": {
+    "header": {
+      "submissionIntake": "エージェント提出受付"
+    },
+    "title": {
+      "agent": "エージェントダッシュボード",
+      "field": "フィールド担当者ダッシュボード",
+      "ops": "オペレーションダッシュボード"
+    },
+    "welcome": {
+      "agent": "出荷、注文、レポートを管理します。",
+      "field": "配達ルートにアクセスし、荷物のステータスを更新して、配送センターに報告します。",
+      "ops": "業務データとメトリクスをここに表示します。"
+    }
+  },
+  "header": {
+    "lang": {
+      "label": "言語"
+    },
+    "logout": "ログアウト",
+    "role": {
+      "agent": "エージェントポータル",
+      "field": "フィールドポータル",
+      "unknown": "ユーザーポータル"
+    }
+  },
+  "intake": {
+    "actions": {
+      "submitOrder": "注文を送信",
+      "submitViaApi": "APIで送信"
+    },
+    "carrierOptions": {
+      "DHL": "DHL",
+      "FedEx": "フェデックス",
+      "Maersk": "マースク",
+      "UPS": "UPS"
+    },
+    "errors": {
+      "contractHashInvalid": "契約ハッシュは64文字の有効な16進数文字列である必要があります。",
+      "destinationRequired": "配送先は必須です。",
+      "insuranceMissing": "保険の選択を確認してください。",
+      "originRequired": "出発地は必須です。",
+      "rawManifestMissing": "マニフェストデータが必要です。",
+      "weightInvalid": "重量は正の数である必要があります。"
+    },
+    "field": {
+      "destinationHub": "配送先ハブ",
+      "packageContents": "荷物の内容",
+      "rawManifest": "マニフェストの貼り付け",
+      "shipmentId": "出荷ID"
+    },
+    "helper": {
+      "destination": "荷物の配送先を記入してください。",
+      "insurance": "保険を希望する場合はチェックを入れてください。",
+      "origin": "出荷の出発場所を記入してください。",
+      "weight": "荷物の重量をキログラムまたはポンドで入力してください。"
+    },
+    "label": {
+      "arrival": "到着予定",
+      "arrivalLocation": "到着場所",
+      "carrier": "配送業者",
+      "contractHash": "契約ハッシュ",
+      "contents": "内容物",
+      "customsStatus": "通関状況",
+      "departure": "出発時間",
+      "departureLocation": "出発場所",
+      "destination": "配送先",
+      "destinationAirport": "配送先空港",
+      "destinationHub": "配送先ハブ",
+      "destinationPort": "配送先港",
+      "destinationPostal": "配送先郵便番号",
+      "dropoffLocation": "受け渡し場所",
+      "fragility": "破損の可能性",
+      "insurance": "保険を含める",
+      "origin": "出発地",
+      "originAirport": "出発空港",
+      "originPort": "出発港",
+      "originPostal": "出発地の郵便番号",
+      "packageContents": "荷物の内容",
+      "pickupLocation": "集荷場所",
+      "priority": "優先度",
+      "rawManifest": "マニフェスト生データ",
+      "receiver": "受取人",
+      "sender": "送信者",
+      "shipmentId": "出荷ID",
+      "statusDelivery": "配達ステータス",
+      "statusDispatch": "発送ステータス",
+      "statusTransit": "輸送ステータス",
+      "transportMode": "輸送モード",
+      "weight": "重量"
+    },
+    "opsPanel": {
+      "futureField": "将来のオペレーションダッシュボードお楽しみ要素",
+      "title": "運用指標の入力"
+    },
+    "panel": {
+      "title": "手動インテーク"
+    },
+    "placeholder": {
+      "apiPayload": "APIペイロードをここに貼り付けてください",
+      "arrival": "到着予定時間を入力してください",
+      "arrivalLocation": "荷物の到着場所を入力してください",
+      "carrier": "配送業者を選択してください",
+      "contents": "配送物の内容を記入してください",
+      "contractHash": "契約ハッシュを入力してください",
+      "customsStatus": "通関状況",
+      "departure": "出発時間を入力してください",
+      "departureLocation": "荷物の出発場所を入力してください",
+      "destination": "配送先を入力してください",
+      "destinationPostal": "配送先の郵便番号を入力してください",
+      "fragility": "荷物の壊れやすさを入力してください",
+      "insurance": "保険を含めますか？",
+      "origin": "出発地を入力してください",
+      "originPostal": "出発地の郵便番号を入力してください",
+      "priority": "優先度を選択してください",
+      "rawManifest": "JSON、CSV、またはテキスト形式のマニフェストを貼り付けてください",
+      "receiver": "受取人の名前を入力してください",
+      "sender": "送信者の名前を入力してください",
+      "shipmentId": "出荷IDを入力してください",
+      "statusDelivery": "配達状況を入力してください",
+      "statusDispatch": "発送状況を入力してください",
+      "statusTransit": "輸送状況を入力してください",
+      "transportMode": "輸送モードを選択してください",
+      "weight": "例：250kg または 600lbs"
+    },
+    "region": {
+      "APAC": "アジア太平洋",
+      "EU": "ヨーロッパ",
+      "NA": "北米"
+    },
+    "response": {
+      "carrier": "配送業者",
+      "error": "エラー"
+    },
+    "section": {
+      "contractTracking": "契約と追跡",
+      "customsDetails": "通関情報",
+      "deliveryDetails": "配達情報",
+      "manifestPaste": "マニフェスト貼り付け",
+      "senderDetails": "送信者と発送情報",
+      "shippingDetails": "配送情報",
+      "transitDetails": "輸送設定",
+      "APIInputDetails": "マニフェスト貼り付け / API入力"
+    },
+    "transportOptions": {
+      "air": "航空",
+      "cargo": "貨物",
+      "courier": "宅配便",
+      "truck": "トラック"
+    }
+  },
+  "login": {
+    "button": "としてログイン",
+    "instructions": "開始するにはあなたの役割を選択してください:",
+    "title": "SafeShipping ログイン"
+  },
+  "roles": {
+    "agent": "エージェント",
+    "field": "フィールド担当者",
+    "ops": "オペレーション"
+  }
+}

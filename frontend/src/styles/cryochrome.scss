@@ -1,0 +1,45 @@
+// src/styles/cryochrome.scss
+// This file contains the Cryochrome theme styles for the frontend application.
+// Use: @import 'cryochrome' to include these styles in your main stylesheet.
+
+.api-feed-header {
+  font-size: 1.5rem;
+  color: #aef;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 0.5rem;
+}
+
+.api-orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.api-order-row {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: background 0.3s ease;
+
+  &.success { border-left: 5px solid #4caf50; }
+  &.pending { border-left: 5px solid #ff9800; }
+  &.failed  { border-left: 5px solid #f44336; }
+}
+
+.api-order-row:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+button {
+  background: #222;
+  color: #aef;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+
+  &:hover {
+    background: #333;
+  }
+}
